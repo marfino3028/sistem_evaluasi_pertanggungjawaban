@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+    web:
+        container_name: atgo-api
+        image: nimdasx/sf-phalcon4
+        ports:
+            - 1182:80
+        volumes:
+            - .:/var/www/html
